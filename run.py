@@ -1,4 +1,3 @@
-from werkzeug.wrappers import response
 from awsdemo import DYNAMODB_TABLE, ECS_API_URL, LAMBDA_API_URL, RDS_SECRET_NAME, S3_BUCKET_NAME, SNS_TOPIC_ARN
 from logging import debug
 from awsdemo.awscomponents import dynamodb,S3, rdsaurora, sns
